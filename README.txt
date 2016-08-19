@@ -12,3 +12,4 @@ $ git status		- Check the status of the repository
 $ git add		- Add a file into a temp bucket before saving the changes
 $ git commit -m	 “…”	- Commit to a project and adding comments
 $ git log		- Keeps a log of the changes, author, date and note of commit
+$ 
