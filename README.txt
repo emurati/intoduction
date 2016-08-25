@@ -36,8 +36,12 @@ $ git remote add <name> <URL>	- To match the repository key with a nickname
 $ git remote		- List the number of Github repositories present
 $ git push -u <name> master	- Push the local repo to Github
 
+$ git branch		- Shows the branches available
 $ git branch <branch>	- Creates a branch to the master
 $ git checkout <branch>	- Get on the branch
+$ git merge <branch>	- It merges the branch in command with the master
+$ git branch -D <branch>	- Deletes a branch
+
 
 
 
