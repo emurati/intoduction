@@ -44,41 +44,32 @@ $ git merge <branch>	- It merges the branch in command with the master
 $ git push <repo> <branch>	- Pushes branch to repo
 
 
+======================================== UBER =======================================
 
-
-
-
-
-=============== UBER
-
-=============== Create a repository for Team or Personal
+= Create a repository for Team or Personal
 $ git remote add origin gitolite@code.uber.internal:TEAM/mycoolrepo	
 $ git remote add origin gitolite@code.uber.internal:personal/${USER}/mycoolrepo
 
-=============== Push to master (add a README to be safe)
+= Push to master (add a README to be safe)
 $ git push -u origin master
 
-=============== To clone a repo
+= To clone a repo
 $ git config --global -l	- Check  that you have url.ssh.. for code.uber.internal
 $ git clone code.uber.internal:<repository>
 
 $ git checkout -b branchname	- To create and branch out in one step EM_feature
 
-=============== Rebasing
+= Rebasing
 $ git checkout develop
 $ git pull origin develop
 $ git checkout your_branch
 $ git rebase develop
 $ git push origin +your_branch
 
-=============== Bisecting
+= Bisecting
 $ git checkout master
 $ git pull
 $ git bisect start
 $ git bisect bad
 $ git bisect good <last good commit hash>
 $ git bisect run fab test:uber.tests.failing.test
-
-
-$ arc diff		- Filing a pull request
-“Add Revert Plan”	- They must be obvious to reviewers for feature and treatments
