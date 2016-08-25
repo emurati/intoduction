@@ -31,9 +31,13 @@ $ git checkout <num> —- <file>	- Go to the commit and copy that file to the wo
 
 
 ================================ BASIC GITHUB COMMANDS =============================
+
 $ git remote add <name> <URL>	- To match the repository key with a nickname
 $ git remote		- List the number of Github repositories present
 $ git push -u <name> master	- Push the local repo to Github
+
+$ git branch <branch>	- Creates a branch to the master
+$ git checkout <branch>	- Get on the branch
 
 
 
